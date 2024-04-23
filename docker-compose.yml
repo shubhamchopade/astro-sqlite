@@ -11,4 +11,4 @@ services:
     ports:
       - "4321:4321"
     volumes:
-      - $PWD/data:/data
+      - /data:/data
